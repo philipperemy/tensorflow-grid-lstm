@@ -53,8 +53,8 @@ def train(args):
     model = Model(args)
 
     with tf.Session() as sess:
-        tf.initialize_all_variables().run()
-        saver = tf.train.Saver(tf.all_variables())
+        tf.global_variables_initializer().run()
+        saver = tf.train.Saver(tf.global_variables())
         train_loss_iterations = {'iteration': [], 'epoch': [], 'train_loss': [], 'val_loss': []}
 
         for e in range(args.num_epochs):
