@@ -14,6 +14,6 @@ Following the discussion in [#8191](https://github.com/tensorflow/tensorflow/iss
 `pip3 install tensorflow-gpu==1.0.1`
 
 <p align="center">
-  <img src="assets/plot.png" width="500">
+  <img src="assets/plot2.png" width="500">
   <br><i>Stacked GRID LSTM (2 layers) vs Stacked LSTM (2 layers) on Shakespeare dataset.</i>
 </p>
