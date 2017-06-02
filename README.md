@@ -12,3 +12,8 @@ The original code is available at [phvu/grid-lstm-tensorflow](https://github.com
 Following the discussion in [#8191](https://github.com/tensorflow/tensorflow/issues/8191), this code is not compatible with the latest version of Tensorflow 1.1. As of today, there is no clear workaround. Instead, use:
 
 `pip3 install tensorflow-gpu==1.0.1`
+
+<p align="center">
+  <img src="assets/plot.png" width="500">
+  <br><i>Stacked GRID LSTM (2 layers) vs Stacked LSTM (2 layers) on Shakespeare dataset.</i>
+</p>
